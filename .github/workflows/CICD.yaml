@@ -52,7 +52,7 @@ jobs:
         with:
           context: ./project/
           push: true
-          tags: ziahamdymohammed/patientinterface:${{ github.run_number }}
+          tags: ziadhamdymohammed/patientinterface:${{ github.run_number }}
   CD-Deploy:
     needs: [CI-Backend]
     runs-on: ubuntu-latest
