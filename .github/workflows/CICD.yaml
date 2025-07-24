@@ -50,5 +50,4 @@ jobs:
         with:
           context: ./project/
           push: true
-          tags: bagato220/PatientInterface:${{ github.run_number }}
-
+          tags: ziadhamdymohammed/PatientInterface:${{ github.run_number }}
